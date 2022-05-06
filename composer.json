@@ -18,6 +18,12 @@
             "email": "jeremybazire83@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/BazireJeremy/contact-package"
+        }
+    ],
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.4"
