@@ -9,6 +9,13 @@
             "Milleniumprod\\Contact\\": "packages/devmilleniumprod/contact/src"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Milleniumprod\\Contact\\ContactServiceProvider"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "BazireJeremy",

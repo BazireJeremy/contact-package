@@ -26,8 +26,8 @@ class ContactServiceProvider extends ServiceProvider
     {
         include __DIR__.'/routes.php';
 
-        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-        $this->loadViewsFrom(__DIR__.'/views', 'contact');
+        $this->loadMigrationsFrom(__DIR__.'/database/migrations');
+        //$this->loadViewsFrom(__DIR__.'/views', 'contact');
 
         /*$this->publishes([
             __DIR__.'../../../database/migrations/' => database_path('migrations'),
