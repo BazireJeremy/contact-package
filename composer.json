@@ -5,7 +5,6 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
             "Milleniumprod\\Contact\\": "packages/devmilleniumprod/contact/src"
         }
     },
@@ -19,7 +18,7 @@
     "authors": [
         {
             "name": "BazireJeremy",
-            "email": "jeremybazire83@gmail.com"
+            "email": "jeremy@milleniumprod.com"
         }
     ],
     "repositories": [
@@ -30,6 +29,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "timehunter/laravel-google-recaptcha-v3": "^2.5"
     }
 }
